@@ -10,7 +10,7 @@ let access = true;                                        // creo una variabile 
                                                                                    
 console.log(emailAccess);
 
-for (let i = 0; i < emailAccess.length; i++){            //imposto il ciclo;                                   
+for (let i = 0; i < emailAccess.length; i++){            //imposto il ciclo col for;                                   
     console.log(emailAccess.length); 
 
     if(emailAccess[i] === email) {                       // se la condizione è vera si accede;           
